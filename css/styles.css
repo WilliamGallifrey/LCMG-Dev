@@ -110,3 +110,13 @@ margin-left: 5%;}
     display:table-cell;
     text-align:center;
 }
+
+@media (max-width: 768px){
+
+.enlacenoticia{ 
+	font-size: 1.1em;}
+
+	.navbar-brand{font-size: 1.1em;}
+
+
+}
