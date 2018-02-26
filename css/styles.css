@@ -7,7 +7,8 @@
 	width: 100%;
 	background-color: white;
 	margin-bottom: 0px;
-padding-bottom: 30px;}
+	padding-bottom: 20px;
+	padding-top: 5px;}
 
 .jumbotron.container{margin-left: 0;}
 
@@ -85,18 +86,20 @@ text-decoration: none;}
 height: 45px;}
 
 .fa {
-	z-index: 1000;
-  height: 40px;
-  padding: 20px;
-  font-size: 30px;
-  width: 40px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-  float:right;
+	font-size: 2em;
+ 	z-index: 1000;
+ 	height: 40px;
+  	padding: 20px;
+  	font-size: 30px;
+  	width: 40px;
+  	text-align: center;
+ 	text-decoration: none;
+  	margin: 5px 2px;
+  	float:right;
 }
 
 .fa:hover {
+
 	text-decoration: none;
     opacity: 0.7;
 }
@@ -125,7 +128,7 @@ height: 45px;}
 }
 
 .fa-instagram {
-  background: #125688;
+  background: #fb3958;
   color: white;
 }
 
