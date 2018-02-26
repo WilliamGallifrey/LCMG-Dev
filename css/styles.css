@@ -112,6 +112,10 @@ height: 45px;}
   color: white;
 }
 
+.fa-share-alt {
+  color: white;
+}
+
 .fa-twitter {
   background: #55ACEE;
   color: white;
@@ -230,9 +234,44 @@ margin-left: 5%;}
 @media (max-width: 991px){
 		
 		.news-contact{
-
 			padding: 0 5% 0 5%; 
 		}
+
+		.dropup{
+
+    		position: fixed;
+    		right:1%;
+    		bottom: 5%;
+    		transform: translateX(-50%);
+    	}
+
+    	button.social{background-color: #F57170;
+    		border-radius: 50%;
+    		width:58px;
+    		height: 58px;
+    		border:2px solid white;
+    		box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+    	a.fa{font-size:2em;
+    		width: 60px;
+    		height: 60px;
+    		list-style-type: none;
+    		position: absolute;
+    		bottom: 20%;
+    		left: 0;
+    		border-radius: 50%;
+    		}
+
+    	a.fa.fa-twitter{bottom: 83px;}
+
+    	a.fa.fa-facebook{bottom: 160px;}
+
+    	.dropup>.dropdown-menu{background-color: transparent;
+    			border:none;
+    			
+    	}
+
+    	.dropup>.dropdown-menu>ul{list-style: none;}
 
 
 		.all-content {
