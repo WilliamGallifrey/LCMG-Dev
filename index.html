@@ -9,21 +9,21 @@
     <link href="css/animate.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link href="css/bootstrap-dropdownhover.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
    <script src="js/bootstrap-dropdownhover.min.js"></script>
 </head>
 <body>
 
-  <div class="container-fluid">
-
-    <div class="jumbotron jumbotron-fluid hidden-md-down">
+  <div class="container-fluid all-content">
+  
+  <header>
+     <div class="jumbotron jumbotron-fluid hidden-md-down">
   <div class="container">
     <img class="d-block w-100" src="images/cabeceraWeb.jpg" alt="Third slide">
   </div>
 </div>
-
-  <header>
 
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded hidden-md-down menustyle">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
@@ -69,7 +69,7 @@
     </ul>
     
   </div>
-</nav>
+</nav> <!-- END lg nav -->
 
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded hidden-lg-up menustylemov">
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -113,42 +113,48 @@
 
     </ul>
   </div>
-</nav>
+</nav> <!-- END sm nav -->
+
+
  </header>
 
 
 <div class="contentmain">
 
-<div class="news-contact">
+  <div class="news-contact">
   
-<div class="news ">  
+        <div class="contact">
+          <span class="contact-title">CONTACTO</span>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
 
- <div id="carouselExampleControls" class="carousel vert slide" data-ride="carousel" data-interval="9000">
+        </div><!-- END contact -->
+
+    <div class="news ">  
+      <span class="news-title">NOTICIAS</span>
+      <div id="carouselExampleControls" class="carousel vert slide" data-ride="carousel" data-interval="9000">
         
-        <div class="carousel-inner">
-            <div class="carousel-item active">
+          <div class="carousel-inner">
+              <div class="carousel-item active">
                 <a class="enlacenoticia" href="https://fiberfib.com/es/line-up-section/cartel.php">Últimas confirmaciones FIB 2018</a>
-            </div>
-            <div class="carousel-item">
+              </div>
+              <div class="carousel-item">
                <a class="enlacenoticia" href="https://www.facebook.com/laculturamatoalgato/?ref=ts&fref=ts">La Cultura Mato al Gato tiene Facebook!!</a>
-            </div>
-            <div class="carousel-item">
-               <a class="enlacenoticia" href="">Noticia3</a>
-            </div>
-        </div>
-    </div>
+              </div>
+              <div class="carousel-item">
+               <a class="enlacenoticia" href="">Esto es una noticia larga para ver qué pasaría en dispositivos pequeños</a>
+              </div>
+          </div><!-- END carousel-inner -->
 
-</div>
+      </div><!-- END carouselExampleControls -->
 
-
-
+    </div><!-- END news-->
 
 
-<div class="contact"></div>
+  </div><!-- END news-contact -->
 
-</div>
-
-<div id="carouselExampleIndicators" class="carousel slide hidden-md-down" data-ride="carousel" data-interval="7000">
+  <div id="carouselExampleIndicators" class="carousel slide hidden-md-down" data-ride="carousel" data-interval="7000">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -189,11 +195,11 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+  </div>
 
 
 
-<div class="container main-content">
+  <div class="container main-content">
 
   <span class="sectionTitle">Más Populares</span>
   <div class="row">
@@ -226,8 +232,8 @@
 
   </div>
 
-<span class="sectionTitle">Destacados</span>
-<div class="row">
+  <span class="sectionTitle">Destacados</span>
+  <div class="row">
     
     
     <div class="col-lg-3 col-md-4 col-sm-6">
@@ -258,7 +264,7 @@
 
 
   <span class="sectionTitle">Entrevistas</span>
-<div class="row">
+  <div class="row">
     
     
     <div class="col-lg-4 col-md-4 col-sm-6">
@@ -281,11 +287,11 @@
     
 
 
-  </div>
+    </div>
   
 
-</div>
-</div>
-</div>
+    </div>
+   </div>
+  </div>
 </body>
 </html>
