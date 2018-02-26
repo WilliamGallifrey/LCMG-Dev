@@ -11,9 +11,6 @@ padding-bottom: 30px;}
 
 .jumbotron.container{margin-left: 0;}
 
-
-
-
 .vert .carousel-item-next.carousel-item-left,
 .vert .carousel-item-prev.carousel-item-right {
     -webkit-transform: translate3d(0, 0, 0);
@@ -83,7 +80,12 @@ text-decoration: none;}
 
 /*START media buttons*/
 
+.contact{
+
+height: 45px;}
+
 .fa {
+	z-index: 1000;
   height: 40px;
   padding: 20px;
   font-size: 30px;
@@ -95,8 +97,12 @@ text-decoration: none;}
 }
 
 .fa:hover {
+	text-decoration: none;
     opacity: 0.7;
 }
+
+.fa:focus{text-decoration: none;
+			color: white;}
 
 .fa-facebook {
   background: #3B5998;
@@ -179,7 +185,7 @@ margin-bottom: 10px;}
 
 
 @media (min-width: 992px){
-	
+
 	.all-content{padding:0 15% 0 15%;}
 
 	a.dropdown-item{
@@ -220,7 +226,15 @@ margin-left: 5%;}
 
 @media (max-width: 991px){
 		
+		.news-contact{
 
+			padding: 0 5% 0 5%; 
+		}
+
+
+		.all-content {
+    	padding: 0;
+		}
 		.enlacenoticia{ 
 		font-size: 1.1em;}
 
