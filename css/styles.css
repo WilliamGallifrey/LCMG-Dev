@@ -11,7 +11,7 @@ padding-bottom: 30px;}
 
 .jumbotron.container{margin-left: 0;}
 
-.all-content{padding:0 15% 0 15%;}
+
 
 
 .vert .carousel-item-next.carousel-item-left,
@@ -179,7 +179,8 @@ margin-bottom: 10px;}
 
 
 @media (min-width: 992px){
-	div.dropdown-menu{}
+	
+	.all-content{padding:0 15% 0 15%;}
 
 	a.dropdown-item{
 		margin-bottom: 15px;
