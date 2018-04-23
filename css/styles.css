@@ -1,4 +1,3 @@
-
 *{box-sizing: border-box;}
 
 /*START header*/
@@ -87,7 +86,6 @@ height: 45px;}
 
 .fa {
 	font-size: 2em;
- 	z-index: 1000;
  	height: 40px;
   	padding: 20px;
   	font-size: 30px;

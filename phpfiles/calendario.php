@@ -1,30 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="Templates/Plantillaprincipal.dwt.php" codeOutsideHTMLIsLocked="false" -->
 <head>
-  <title>LCMG</title>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="Título" -->
+<title>LCMG - Calendario</title>
+
+
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link href="../../css/animate.min.css" rel="stylesheet">
-    <link href="../../css/styles.css" rel="stylesheet">
-    <link href="../css/entry-styles.css" rel="stylesheet">
-    <link href="../../css/bootstrap-dropdownhover.min.css" rel="stylesheet">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
-
+    
+    <link href="../css/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="../css/bootstrap-dropdownhover.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  <script src="../../js/bootstrap-dropdownhover.min.js"></script>
+  <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <script src="../js/bootstrap-dropdownhover.min.js"></script>
+  <link rel="stylesheet" href="../css/caltiles.css" type="text/css" />
+
+  
 </head>
 <body>
-
-  <div class="container-fluid all-content">
-  
-  <header>
+<div class="container-fluid all-content">
+<header>
      <div class="jumbotron jumbotron-fluid hidden-md-down">
   <div class="container">
-    <img class="d-block w-100" src="../../images/cabeceraWeb.jpg" alt="Third slide">
+    <img class="d-block w-100" src="../images/cabeceraWeb.jpg" alt="Third slide">
   </div>
 </div>
 
@@ -65,7 +71,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">Eventos</a>
+        <a class="nav-link" href="calendario.php">Eventos</a>
       </li>
       
 
@@ -75,10 +81,10 @@
 </nav> <!-- END lg nav -->
 
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded hidden-lg-up menustylemov">
-  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#"><img id="logoGato" src="../../images/logoGato.png" width="40" alt="">La cultura mato al gato</a>
+  <a class="navbar-brand" href="../index.html"><img id="logoGato" src="../images/logoGato.png" width="40" alt="">La cultura mato al gato</a>
 
 
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -111,7 +117,7 @@
       </li>
 
  <li class="nav-item">
-        <a class="nav-link" href="#">Eventos</a>
+        <a class="nav-link" href="phpfiles/calendario.php">Eventos</a>
       </li>
 
     </ul>
@@ -121,13 +127,10 @@
 
  </header>
 
+<div class="container">
 
-<div class="contentmain">
+<div class="contact hidden-md-down">
 
-  <div class="news-contact">
-  
-        <div class="contact hidden-md-down">
-          <span class="contact-title">CONTACTO</span>
           <a href="fb://page/laculturamatoalgato/?ref=ts&fref=ts" class="fa fa-facebook hidden-lg-up"></a> 
           <a href="https://www.facebook.com/laculturamatoalgato/?ref=ts&fref=ts" target="_blank" class="fa fa-facebook hidden-md-down"></a>
           <a href="https://twitter.com/CulturaFelina?ref_src=twsrc%5Etfw&ref_url=http%3A%2F%2Fwww.laculturamatoalgato.com%2F" target="_blank" class="fa fa-twitter"></a>
@@ -135,28 +138,11 @@
 
         </div><!-- END contact -->
 
-  </div><!-- END news-contact -->
 
-  
-  <div class="container main-content">
-
-<div id="main-cont" ></div>
-
-
-      <h3> D&eacute;janos tu comentario</h3>
-  <form action="comentario.php" class="" method="post">
-  <textarea name="comentario"></textarea><br />
-  <input type="submit" name="insertar" value="Publicar Comentario" class="botonblogder"/>
-  <input type="hidden" name="id" value="<?php echo $id ?>" />
-  </form>
-
-
-
-
-  </div> <!-- END main-content -->
-
-
-
+ 
+ <?php include("cal.php"); ?>
+ 
+ </div>
   <div id="buttons" class="contact hidden-lg-up dropup">
           <button class= "social fa fa-share-alt fa-lg" data-toggle="dropdown"></button>
 
@@ -172,64 +158,7 @@
           
 
         </div><!-- END contact -->
-        
-        
-        
-        <script type="application/javascript">
-        
-        //En la <a> del enlace el id tiene que ser el de la entrada y se puede coger con document.getElementByID o algo así
-        
-        
-        function getQueryVariable(variable)
-{
-       var query = window.location.search.substring(1);
-       var vars = query.split("&");
-       for (var i=0;i<vars.length;i++) {
-               var pair = vars[i].split("=");
-               if(pair[0] == variable){return pair[1];}
-       }
-       return(false);
-       }
-        
-        
-        if(getQueryVariable("id")!== 'undefined'){
-	
-      $.ajax({
-    type: "POST",
-    url: '../../phpfiles/entrada.php',
-    data: {id:getQueryVariable("id")},
-
-    success: function (data) {
-    
-		var result = "";
-		result = data;
-		document.getElementById("main-cont").innerHTML = result;
-                  
-                 
-            }
-});}
-
-
-if(getQueryVariable("tag")!== 'undefined'){
-
-
-  $.ajax({
-    type: "POST",
-    url: '../../phpfiles/entradalist.php',
-    data: {id:getQueryVariable("tag")},
-
-    success: function (data) {
-    
-		var result = "";
-		result = data;
-		document.getElementById("main-cont").innerHTML = result;
-                  
-                 
-            }
-});
-
-
-}
-</script>
+        </div>
 </body>
-</html>
+
+<!-- InstanceEnd --></html>
