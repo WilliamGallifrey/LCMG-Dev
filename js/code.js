@@ -65,7 +65,7 @@ function init() {
                 $('#content-main').css('opacity', '1');
             }
         });
-        $("body").css('background-color', '#1b1b1b');
-        $('#content-main').css("background-color", "rgba(255,255,255,0.1)")
+        
+        
     }, 730)
 }
